@@ -1,0 +1,59 @@
+# 输出图像和结果
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+
+# 根目录的测试输出文件
+output.*
+result_*.png
+ring.*
+*.JPG
+*.JPEG
+
+# 数据文件夹
+数据/
+
+# 日志文件
+logs/
+*.log
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 环境变量
+.env
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Claude配置
+.claude/
+
+# 临时文件
+*.tmp
+*.bak
+*.cache
+
+# 工作进展笔记
+工作进展/
+
+# 文档（本地使用）
+docs/
+
+# 其他不需要的文件
+todo.md
+setup.sh
+ring.*
+result_*.png
+ghost_*
