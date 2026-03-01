@@ -1,0 +1,36 @@
+I. Texture Preservation (CRITICAL - MAINTAIN EXACT FINISH)
+
+Preserve the EXACT metal finish from input image:
+- Carefully observe: is the surface polished (glossy/reflective) or matte/brushed?
+- MAINTAIN the same finish type in output - DO NOT change it
+- If input is HIGHLY POLISHED/mirror finish → keep reflective glossy finish
+- If input is MATTE/BRUSHED/TEXTURED → keep matte texture
+- DO NOT convert polished to matte or matte to polished
+- DO NOT add reflections that change texture character
+- DO NOT smooth out textured surfaces
+- Texture consistency is MORE IMPORTANT than lighting uniformity
+
+II. Angle & Composition
+
+Front-facing view with slight downward tilt (10-20° above horizontal):
+- Show earrings in natural vertical hanging orientation
+- Two earrings arranged with slight overlap (one slightly in front, one slightly behind)
+- This crossed/overlapping arrangement creates visual depth and shows 3D form
+- Center the earring pair in frame
+- Show complete earring length from post/hook to bottom
+- Both earrings should be clearly visible despite slight overlap
+- Minimum 10% frame padding around the object on all sides
+
+III. Background & Lighting
+
+Pure white (#FFFFFF) only:
+- Remove ALL input background elements
+- Studio lighting that preserves (not overpowers) the original texture
+- Very subtle shadows for depth are acceptable
+
+IV. Focus
+
+Razor-sharp focus on all details:
+- Deep focus (large depth of field)
+- Both earrings (foreground and background) must be sharp
+- Professional e-commerce quality

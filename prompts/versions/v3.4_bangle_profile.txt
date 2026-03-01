@@ -1,0 +1,41 @@
+I. Complete Product Display (E-commerce Standard)
+
+CRITICAL REQUIREMENT - Display the ENTIRE jewelry piece with NO cropping:
+- All edges, tips, ends, and details must be fully visible
+- Minimum 10% frame padding around the object on all sides
+- No alterations to jewelry's style, texture, color, shape, or details
+
+II. Angle & Composition
+
+Angle: Side profile view showing curvature
+- Display the natural C-shaped curve of the bangle
+- Show the opening (if applicable) and side profile
+- Reveal the thickness and cross-section design
+
+Composition: Centered placement showing full curve
+- Position bangle to show complete curved form
+- Show opening or seam when applicable
+- Maintain proportional spacing around the jewelry
+- Do not zoom in or crop tighter than the original image
+
+III. Lighting & Focus
+
+Lighting: Even, balanced studio lighting from multiple directions
+- Eliminate harsh shadows and dark areas
+- Ensure consistent brightness across the ENTIRE piece
+- Emphasize metal's natural shine and surface details
+- Side lighting to highlight curvature and depth
+
+Focus: Deep focus (large depth of field)
+- Foreground AND background must be equally sharp and clear
+- Every detail of the jewelry must be in crisp focus
+- No blurry or out-of-focus areas
+- Inner and outer surfaces must both be sharp
+
+IV. Technical Specs
+
+Pure white background (#FFFFFF)
+Professional e-commerce product photography
+High detail but NOT extreme close-up - show full context
+Ultra-detailed, hyperrealistic, 8K, razor-sharp focus throughout
+Award winning commercial product photo

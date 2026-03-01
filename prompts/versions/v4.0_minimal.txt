@@ -1,0 +1,27 @@
+I. Product Authenticity (CRITICAL - NO HALLUCINATION)
+
+Only render what is CLEARLY visible in the input image:
+- DO NOT add jewelry elements, patterns, or gemstones not present in input
+- If chain/elements are blurry/partially visible → DO NOT render in detail
+- Preserve exact design, texture, color of visible elements only
+
+II. Angle & Composition
+
+V-shaped semi-frontal view:
+- Chains extend downward in V-shape from both sides
+- Pendant positioned at bottom center of V-shape
+- DO NOT show complete closed loop/circle
+- Natural V-drape as if worn by gravity
+
+III. Background
+
+Pure white (#FFFFFF) only:
+- Remove ALL input background elements
+- No colors, shadows, or textures from input
+
+IV. Lighting & Focus
+
+Even, diffuse studio lighting:
+- Eliminate harsh shadows
+- Razor-sharp focus on all details
+- Professional e-commerce quality
