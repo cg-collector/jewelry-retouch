@@ -1,0 +1,79 @@
+I. Product Authenticity (STRICT)
+
+CRITICAL - Preserve jewelry authenticity from input image:
+- Maintain EXACT style, texture, color, shape, and ALL visible details from original jewelry
+- DO NOT invent, add, or create any design elements not present in input image
+- If it's not visible in input, DO NOT render it in detail
+- Preserve all engravings, gemstone settings, metal textures, and surface finishes exactly as they appear in input
+- NO creative interpretation - treat this as a technical photography task, not artistic creation
+
+II. Angle Transformation Guidelines
+
+OBJECTIVE: Transform to 30-45° MEDIUM-LOW ANGLE VIEW showing bangle in closed circular form
+
+Angle: Medium-low angle at 30-45° (looking down at bangle from elevated angle)
+- Reorient bangle to show it from 30-45° angle above horizontal plane
+- This angle reveals both the outer diamond decorations and the inner metal surface
+- Bangle should appear in near-closed or closed circular form (showing clasp if present)
+- The angle creates depth while showing the bangle's full circular structure
+
+Composition: Elevated view with circular presentation
+- Entire bangle must be visible in frame - show complete or near-complete circular form
+- If bangle has a clasp: position it naturally on one side (typically right side)
+- Outer surface details (diamonds, patterns) should be clearly visible
+- Inner curve and metal texture should also be discernible
+- Center the bangle in frame with balanced composition
+- Minimum 15% frame padding around entire bangle on all sides
+- DO NOT show completely flat top-down or completely vertical side view
+
+Key Visual Elements:
+- If diamonds are present on outer surface: show their arrangement clearly (typically 5 diamonds evenly spaced)
+- Metal's natural shine visible on both outer and inner curves
+- Clasp details (if present) should be visible but not dominating
+- The 30-45° angle provides three-dimensional depth while maintaining circular form
+- Slight shadow underneath bangle adds depth without being harsh
+
+III. Background (STRICT PURE WHITE)
+
+CRITICAL REQUIREMENT - Pure white background with NO exceptions:
+- Background MUST be pure white (#FFFFFF) with no gradients, no shadows, no colors
+- DO NOT add any environmental elements, props, or decorative backgrounds
+- DO NOT add surface reflections, table textures, or ground shadows
+- Remove ALL background elements from input image - result must float on pure white
+- Exception: very subtle shadow directly under bangle is acceptable for depth
+
+IV. Lighting & Focus
+
+Lighting: Soft, balanced studio lighting from above and side
+- Use softbox or diffused lighting from above and slightly from side
+- Eliminate harsh shadows while maintaining soft shadow under bangle for depth
+- Ensure even brightness across ENTIRE bangle - no dark areas or hot spots
+- Emphasize metal's natural shine (gold, silver, platinum tones as they appear)
+- For diamonds: ensure each diamond's facets catch light and show brilliance
+- Soft front-top lighting with slight side lighting to enhance three-dimensional form
+
+Focus: Deep focus (large depth of field)
+- Foreground AND background must be equally sharp and clear
+- Entire bangle must be in focus - no blur or bokeh effects
+- Maintain crisp edges on all design details including clasp mechanism
+
+V. Technical Specifications
+
+Image Quality: Professional product photography standard
+- High resolution (minimum 2000px on the shortest side)
+- Sharp focus throughout entire bangle
+- No noise, artifacts, or compression issues
+- Color accurate representation of metal tones (gold, silver, rose gold, etc.)
+
+Style: Clean, minimalist e-commerce jewelry photography
+- No artistic effects, filters, or styling
+- No additional elements or decorations
+- Professional studio lighting setup
+- Result should look like high-end jewelry product catalog photograph
+
+CRITICAL REMINDER: This is a 30-45° ELEVATED ANGLE VIEW
+- DO NOT convert to flat top-down view (0°)
+- DO NOT convert to pure side profile view (90°)
+- MAINTAIN the medium-low angle that shows both outer and inner surfaces
+- The angle should provide depth while showing the circular form
+- If diamonds are present: their arrangement must be clearly visible on outer surface

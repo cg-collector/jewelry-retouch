@@ -14,12 +14,12 @@ import json
 # 配置
 JEWELRY_TYPES = {
     "necklace": {"name": "项链", "dir": "数据/项链", "sample": 5},
-    "earring": {"name": "耳环", "dir": "数据/耳环", "sample": 5},
-    "bracelet": {"name": "手链", "dir": "数据/手链", "sample": 5},
-    "bangle": {"name": "手环", "dir": "数据/手环", "sample": 5},
+    # "earring": {"name": "耳环", "dir": "数据/耳环", "sample": 5},
+    # "bracelet": {"name": "手链", "dir": "数据/手链", "sample": 5},
+    # "bangle": {"name": "手环", "dir": "数据/手环", "sample": 5},
 }
 
-PROMPT_FILE = "prompts/versions/v2.1_ecommerce_universal.txt"
+PROMPT_FILE = "prompts/versions/v3.0_necklace_threequarter.txt"
 MODEL = "nano-banana-2-2k-vip"
 STRENGTH = 1.0
 STEPS = 40
@@ -79,11 +79,18 @@ def run_single_test(image, output_dir, index):
 
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description='快速分类测试 - 每类指定张数')
+    parser.add_argument('--workers', type=int, default=MAX_WORKERS, help=f'并发线程数 (默认: {MAX_WORKERS})')
+    args = parser.parse_args()
+
+    MAX_WORKERS = args.workers
+
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     output_base = f"outputs/quick_final_test_{timestamp}"
 
     print(f"\n{'='*70}")
-    print(f"快速最终测试 - v2.1 通用提示词")
+    print(f"快速最终测试")
     print(f"{'='*70}")
     print(f"配置:")
     print(f"  提示词: {PROMPT_FILE}")
