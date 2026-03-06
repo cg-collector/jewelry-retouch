@@ -59,5 +59,5 @@ class Config:
             print("Warning: No models found in .env, using default.")
 
     def get_endpoint_for_model(self, model: str) -> str:
-        default_endpoint = "/v1/images/generations"
+        default_endpoint = "/v1/images/edits"
         return self.endpoint_map.get(model, default_endpoint)

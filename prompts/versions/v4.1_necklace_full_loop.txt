@@ -1,0 +1,83 @@
+I. Product Authenticity (STRICT)
+
+CRITICAL - Preserve jewelry authenticity from input image:
+- Maintain EXACT style, texture, color, shape, and ALL visible details from original jewelry
+- DO NOT invent, add, or create any design elements not present in input image
+- If it's not visible in input, DO NOT render it in detail
+- Preserve all engravings, gemstone settings, metal textures, and surface finishes exactly as they appear in input
+- NO creative interpretation - treat this as a technical photography task, not artistic creation
+
+II. Angle Transformation Guidelines
+
+OBJECTIVE: Transform viewing angle to front-facing FULL LOOP view
+
+Angle: Front-facing view showing COMPLETE CLOSED LOOP necklace
+- Reorient entire necklace to show it from the front
+- If input is side/profile angle, rotate to front-facing while keeping ALL original design details intact
+- Maintain natural hanging position and gravity-appropriate chain drape
+- Show COMPLETE closed loop - both sides of chain must connect and form complete circle/oval
+
+Composition: Balanced full loop display
+- ENTIRE necklace loop must be visible in frame
+- Both ends of chain must connect and form complete closed shape
+- No cropping of necklace - show complete closed loop from all sides
+- Pendant should be visible but integrated into the loop
+- The necklace should appear centered and well-balanced in frame
+- Allow natural, gravity-appropriate drape of chains forming loop
+- Minimum 15% frame padding around the entire necklace on all sides
+
+III. Background (STRICT PURE WHITE)
+
+CRITICAL REQUIREMENT - Pure white background with NO exceptions:
+- Background MUST be pure white (#FFFFFF) with no gradients, no shadows, no colors
+- REMOVE ALL background elements from input image
+- If input has blue cloth, fabric, or any colored background → REPLACE with pure white
+- If input has shadows on background → REMOVE them
+- The jewelry should appear clean on pure white background
+- NO colored backgrounds, NO gray backgrounds, ONLY pure white
+
+IV. Lighting & Focus
+
+Lighting: Even, diffuse studio lighting from multiple directions
+- Multiple soft light sources from different angles to eliminate harsh shadows
+- Consistent brightness across ENTIRE necklace (all chains and pendant)
+- Gentle highlights to show depth and details
+- No dramatic or harsh shadows (especially on top of pendant)
+- Natural, professional studio lighting
+
+Focus: Sharp focus on entire necklace
+- ENTIRE necklace loop must be in focus
+- All details of jewelry must be crisp and clear
+- No blurry or out-of-focus areas
+- Professional product photography depth of field
+
+V. Technical Output Requirements
+
+Background: Pure white (#FFFFFF), perfectly even with no gradients or shadows
+Style: Professional e-commerce product photography
+Quality: High detail, professional clarity, photorealistic rendering
+Scale: Full necklace loop shot, showing complete closed shape
+
+VI. Reference Standard
+
+IMPORTANT: Match quality and style of successful examples:
+- Reference image: This should show a clean, complete necklace loop on pure white background
+- The entire necklace forming closed loop should be visible
+- Clean pendant details without harsh shadows
+- Professional e-commerce product shot
+
+VII. Negative Constraints (CRITICAL - What NOT to Do)
+
+ABSOLUTELY DO NOT:
+- Show V-shaped open chain display (chains extending downward without connecting)
+- Show only pendant without complete loop
+- Keep any colored background from input (blue cloth, fabric, etc.)
+- Add harsh or unnatural shadows
+- Make pendant appear disconnected from chain structure
+- Make chains appear to not form complete loop
+- Add decorations, gemstones, or engravings that don't exist in input
+- Change metal color, texture, or finish
+- Enhance beyond what is technically present in input jewelry
+
+COMPOSITION RULE: COMPLETE CLOSED LOOP necklace (not V-shape open)
+BACKGROUND RULE: Pure white #FFFFFF only, remove all input backgrounds

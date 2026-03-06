@@ -1,0 +1,22 @@
+# I. Composition & Perspective (Resting Flat, Frontal Low-Angle View)
+- The ring is resting flat and horizontally on the pure white surface.
+- The camera looks directly across at the front profile of the ring's central setting or top decorative element, not vertically down through it.
+- The ring's shank/band arcs away horizontally, visible as it connects to the back of the setting .
+- The camera angle is low, almost at eye-level with the ring, but angled slightly downward , allowing a clear view of the top surface and any structural details of the central area.
+- The arrangement must be perfectly symmetrical and balanced, with the ring centered in the frame.
+- Maintain 15% frame padding for a clean, professional look.
+
+# II. Texture & Material Preservation
+- Strict Visual Replication: Replicate only the EXACT components and elements seen in the input image. Do not add or generate any additional gemstones, diamonds, or decorative motifs that are not present in the original ring.
+- Metal Fidelity: Maintain the EXACT highly polished (glossy/reflective) finish of the metal from the input image (e.g., gold, silver, or platinum).
+- Detail Accuracy: Preserve the precise engravings (e.g., fluting, screw motifs, or logos) and the exact shape of any central setting as they appear in the original photo.
+- The metal surfaces must look realistic and smooth, retaining the original's clean reflective quality without any computer-generated artifacts.
+
+# III. Background & Lighting
+- Pure white background (#FFFFFF) with a very soft, clean surface for the ring to rest upon.
+- Bright, even studio lighting that maximizes the metal's natural luster and the inherent brilliance of any existing elements, without creating harsh shadows or new artifacts.
+- Completely remove all elements and textures from the original background (box, text, velvet, etc.).
+
+# IV. Focus & Quality
+- Razor-sharp focus across the entire ring, from the front-most part of the setting to the back of the arcing band.
+- Professional jewelry photography style: high resolution, clean edges, and zero digital noise.

@@ -1,0 +1,21 @@
+# I. Composition & Perspective (Resting Flat, Frontal Low-Angle View)
+- The ring is resting flat and horizontally on the pure white surface.
+- The camera looks directly across at the front profile of the resting ring, not vertically down through it.
+- The main pear-shaped gemstone and its surrounding halo are presented front-on, while the ring's shank arcs away horizontally, visible as it connects to the back of the setting (similar to the composition in `image_4.png`).
+- The camera angle is low, almost at eye-level with the ring, but angled slightly downward to provide a very subtle 俯视感 (微俯视), allowing a clear view of the top facets of the main diamond and halo stones.
+- The arrangement must be perfectly symmetrical and balanced, with the ring centered in the frame.
+- Maintain 15% frame padding for a clean, professional look.
+
+# II. Texture & Material Preservation
+- Maintain the EXACT highly polished (glossy/reflective) silver/platinum finish of the metal from the input image (image_0.png).
+- Preserve the pear-cut shape, brilliance, and specific "fire" and color of the central diamond and all halo/shank stones.
+- The metal surfaces must look realistic and smooth, retaining the original's clean reflective quality without any computer-generated artifacts.
+
+# III. Background & Lighting
+- Pure white background (#FFFFFF) with a very soft, clean surface for the ring to rest upon.
+- Bright, even studio lighting that maximizes diamond sparkle and metal sheen without creating harsh shadows or new artifacts (e.g., the center black spot is completely removed).
+- Completely remove all elements and textures from the original background (box, text, etc.).
+
+# IV. Focus & Quality
+- Razor-sharp focus across the entire ring, from the central diamond to the back of the arcing band.
+- Professional jewelry photography style: high resolution, clean edges, and zero digital noise.

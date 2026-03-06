@@ -1,0 +1,41 @@
+I. Complete Product Display (E-commerce Standard)
+
+CRITICAL REQUIREMENT - Display the ENTIRE jewelry piece with NO cropping:
+- All edges, tips, ends, and details must be fully visible
+- Minimum 10% frame padding around the object on all sides
+- No alterations to jewelry's style, texture, color, shape, or details
+
+II. Angle & Composition
+
+Angle: Side profile view (90° from front)
+- Show bracelet from its natural side profile as worn on wrist
+- Reveal vertical dimension and link depth
+- Maintain natural curvature/arch of bracelet
+- Clasp visible on one side
+
+Composition: Horizontal layout centered in frame
+- Bracelet extends horizontally across frame
+- Show curvature from side angle
+- Even spacing on all sides
+- Display link/chain pattern depth
+
+III. Lighting & Focus
+
+Lighting: Side lighting to emphasize depth and dimension
+- Soft lighting from side to reveal contours
+- Eliminate harsh shadows
+- Ensure consistent brightness
+- Emphasize metal's natural shine and 3D form
+
+Focus: Sharp focus on all details
+- Every link and detail must be crisp
+- Deep focus throughout
+- No blurry or out-of-focus areas
+
+IV. Technical Specs
+
+Pure white background (#FFFFFF)
+Professional e-commerce product photography
+High detail but NOT extreme close-up - show full context
+Ultra-detailed, hyperrealistic, 8K, razor-sharp focus throughout
+Award winning commercial product photo

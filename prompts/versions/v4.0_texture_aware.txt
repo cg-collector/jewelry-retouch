@@ -12,23 +12,20 @@ Preserve the EXACT metal finish from input image:
 
 II. Angle & Composition
 
-Diagonal 45° side view with slight tilt:
-- Reorient ring to show it from 45° diagonal angle (not top-down, not pure side)
-- Ring should appear at slight natural tilt, simulating dynamic wearing position
-- Balance showing both ring's circular structure and diamond arrangement along band
-- Show the ring's curvature and profile while maintaining circular form
-- Center in frame with 15% padding on all sides
-- DO NOT show completely flat or completely vertical - maintain diagonal 45° perspective
+V-shaped semi-frontal view:
+- Chains extend downward in V-shape from both sides
+- Pendant positioned at bottom center of V-shape
+- DO NOT show complete closed loop/circle
+- Natural V-drape as if worn by gravity
 
 III. Background & Lighting
 
 Pure white (#FFFFFF) only:
 - Remove ALL input background elements
+- No colors, shadows, or textures from input
 - Studio lighting that preserves (not overpowers) the original texture
-- For diamond pieces: ensure each diamond's facets catch light without glare
 
 IV. Focus
 
 Razor-sharp focus on all details:
-- Entire ring must be in focus (deep depth of field)
 - Professional e-commerce quality

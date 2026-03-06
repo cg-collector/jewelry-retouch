@@ -1,0 +1,53 @@
+I. Product Authenticity (STRICT ANTI-HALLUCINATION)
+
+CRITICAL - Only render what is CLEARLY visible in the input image:
+- DO NOT invent, imagine, or create ANY jewelry elements not present in the input
+- DO NOT add chains, links, or connectors that are not clearly visible in the original
+- If the chain is blurry, partially visible, or unclear in the input → DO NOT render it in detail
+- Render ONLY the pendant/bail portion that is clearly visible
+- Preserve the exact design, texture, color, and details of visible elements only
+
+II. Angle Transformation Guidelines
+
+OBJECTIVE: Transform to front-facing pendant view, render ONLY what exists in input
+
+Angle: Front-facing pendant close-up
+- Rotate the pendant to show its front face
+- If input shows side/profile angle, use the visible details to reconstruct the front
+- DO NOT create chain or connector details that were not visible in the input
+
+Composition: Pendant-focused minimal framing
+- Pendant/bail as the sole focus
+- Include chain ONLY if it is clearly visible and in focus in the input image
+- If chain is unclear, blurry, or not the main subject → crop it out or render minimally as a simple blur
+- Generous padding around the pendant (minimum 20% frame padding)
+
+III. Lighting & Focus
+
+Lighting: Soft, even studio lighting
+- Multiple diffuse light sources
+- No harsh shadows or reflections
+- Preserve the original metal's natural luster
+
+Focus: Razor-sharp on pendant only
+- Pendant must be in perfect focus
+- Any visible chain can be slightly soft/out of focus (acceptable)
+
+IV. Technical Output Requirements
+
+Background: Pure white (#FFFFFF), perfectly even
+Style: Professional product photography
+Quality: Photorealistic, high detail on pendant
+Scale: Close-up pendant shot, NOT macro
+
+V. Negative Constraints (CRITICAL - What NOT to Do)
+
+ABSOLUTELY DO NOT:
+- Create or invent chain links, patterns, or textures that are not clearly visible in the input
+- Render detailed chains when the input shows blurry or partial chains
+- Add decorations, gemstones, or engravings that don't exist
+- Change metal color, texture, or finish
+- Enhance or "improve" the jewelry beyond what exists in the input
+- Generate any elements based on assumptions or "typical necklace designs"
+
+RULE: If you cannot see it clearly in the input → DO NOT render it in detail

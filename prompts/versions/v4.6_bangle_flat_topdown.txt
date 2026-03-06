@@ -1,0 +1,26 @@
+I. Product Authenticity (CRITICAL - NO HALLUCINATION)
+
+Only render what is CLEARLY visible in the input image:
+- DO NOT add jewelry elements, patterns, or gemstones not present in input
+- Preserve exact design, texture, color of visible elements only
+
+II. Angle & Composition
+
+Top-down flat lay view:
+- Camera positioned directly ABOVE, looking straight down (90° vertical)
+- Bangle lies flat on horizontal plane
+- Show complete circular or oval shape
+- NO tilt or angle - perfectly flat and parallel to frame
+
+III. Background
+
+Pure white (#FFFFFF) only:
+- Remove ALL input background elements
+- No colors, shadows, or textures from input
+
+IV. Lighting & Focus
+
+Even, diffuse studio lighting:
+- Eliminate harsh shadows
+- Razor-sharp focus on all details
+- Professional e-commerce quality

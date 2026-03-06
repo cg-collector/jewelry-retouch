@@ -10,7 +10,7 @@ from concurrent.futures import ThreadPoolExecutor
 import datetime
 
 # 配置
-MODEL = "nano-banana-2-2k-vip"
+MODEL = "nano-banana-2"
 STRENGTH = 1.0
 STEPS = 40
 TIMEOUT = 300
@@ -23,6 +23,7 @@ JEWELRY_PROMPT_MAP = {
     "耳环": "prompts/versions/v4.5_earring_frontal_pair.txt",
     "手链": "prompts/versions/v3.3_bracelet_topdown.txt",
     "手环": "prompts/versions/v4.6_bangle_flat_topdown.txt",
+    "戒指": "prompts/versions/v4.2_ring_flat_texture_aware.txt",
 }
 
 
@@ -39,6 +40,7 @@ def collect_all_images():
         "耳环": "数据/耳环",
         "手链": "数据/手链",
         "手环": "数据/手环",
+        "戒指": "数据/戒指",
     }
 
     for jewelry_type, jewelry_dir in jewelry_dirs.items():
@@ -69,8 +71,9 @@ def run_single_test(image, jewelry_type, prompt_file, output_dir, index):
 
     try:
         result = subprocess.run(cmd, check=True, capture_output=True, text=True)
-        # 移动生成的文件到正确位置
-        src = os.path.join(output_dir, MODEL, "01.png")
+        # 移动生成的文件到正确位置（模型名中的.会被替换成_）
+        model_dir_name = MODEL.replace(".", "_")
+        src = os.path.join(output_dir, model_dir_name, "01.png")
         dst = os.path.join(output_dir, f"{index:02d}.png")
 
         if os.path.exists(src):
@@ -78,7 +81,7 @@ def run_single_test(image, jewelry_type, prompt_file, output_dir, index):
             os.makedirs(output_dir, exist_ok=True)
             shutil.move(src, dst)
             # 清理临时目录
-            shutil.rmtree(os.path.join(output_dir, MODEL))
+            shutil.rmtree(os.path.join(output_dir, model_dir_name))
             return True, None, image, jewelry_type, prompt_file
         else:
             return False, "输出文件未生成", image, jewelry_type, prompt_file
@@ -88,7 +91,7 @@ def run_single_test(image, jewelry_type, prompt_file, output_dir, index):
 
 def main():
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_dir = f"outputs/quick_random_test_{timestamp}"
+    output_dir = f"temp/quick_random_test_{timestamp}"
     os.makedirs(output_dir, exist_ok=True)
 
     # 收集并随机抽样

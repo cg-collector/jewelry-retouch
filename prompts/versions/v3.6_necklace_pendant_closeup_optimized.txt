@@ -1,0 +1,54 @@
+I. Product Authenticity (ANTI-HALLUCINATION)
+
+CRITICAL - Preserve jewelry authenticity from input image:
+- Maintain EXACT style, texture, color, shape, and ALL visible details from the original jewelry
+- DO NOT invent, add, or create any design elements, patterns, or features not present in the input image
+- If the input shows a side view, render the front view using the SAME design elements visible in the input
+- Preserve all engravings, gemstone settings, metal textures, and surface finishes exactly as they appear in the input
+- NO creative interpretation - treat this as a technical photography task, not artistic creation
+
+II. Angle Transformation Guidelines
+
+OBJECTIVE: Transform the viewing angle to emphasize the pendant while maintaining authenticity
+
+Angle: Front-facing view with pendant as primary focus
+- Reorient the necklace to show the pendant from the front
+- If input is side/profile angle, rotate to front-facing while keeping ALL original design details intact
+- Maintain the natural hanging position and gravity-appropriate chain drape
+
+Composition: Pendant-focused, chain-contextual framing
+- Pendant must be fully visible with generous padding around it (minimum 15% frame padding)
+- Chain should be visible below/around the pendant to provide context (show at least 1/3 of the chain length)
+- Clasp and chain ends may extend beyond frame edges - this is acceptable
+- Priority: Pendant clarity > showing the complete necklace from end to end
+
+III. Lighting & Focus
+
+Lighting: Soft, professional studio lighting
+- Multiple diffuse light sources to eliminate harsh shadows
+- Consistent brightness across the pendant and visible chain portions
+- Gentle highlight on the pendant's central focal point
+- Preserve the original metal's natural luster and gemstone brilliance
+
+Focus: Sharp focus on pendant and visible chain areas
+- Pendant must be in razor-sharp focus
+- Visible portions of chain should also be sharp and clear
+- Depth of field should encompass the entire pendant
+
+IV. Technical Output Requirements
+
+Background: Pure white (#FFFFFF), perfectly even with no gradients or shadows
+Style: Professional e-commerce product photography
+Quality: High detail, professional clarity, photorealistic rendering
+Scale: Clear pendant details with visible context, NOT extreme macro
+
+V. Negative Constraints (What NOT to Do)
+
+DO NOT:
+- Add gemstones, engravings, or decorations that don't exist in the input
+- Change the metal color, texture, or finish
+- Alter the pendant's shape or proportions
+- Create new design elements or patterns
+- Enhance beyond what is technically present in the input jewelry
+- Add reflections, shadows, or lighting effects that weren't in the original scene
+- Crop into the pendant or cut off its edges

@@ -1,0 +1,83 @@
+I. Product Authenticity (STRICT)
+
+CRITICAL - Preserve jewelry authenticity from input image:
+- Maintain EXACT style, texture, color, shape, and ALL visible details from original jewelry
+- DO NOT invent, add, or create any design elements not present in input image
+- If it's not visible in input, DO NOT render it in detail
+- Preserve all engravings, gemstone settings, metal textures, and surface finishes exactly as they appear in input
+- NO creative interpretation - treat this as a technical photography task, not artistic creation
+
+II. Angle Transformation Guidelines
+
+OBJECTIVE: Transform to 35° ANGLED TOP-DOWN VIEW emphasizing diamond and ring curvature
+
+Angle: Angled top-down view from 35° above horizontal plane
+- Reorient ring to show it from 35° elevated angle (not straight top-down)
+- This angle clearly shows the diamond's top table (facets) while also revealing the band's curved profile
+- Creates three-dimensional depth showing both diamond brilliance and ring's structural elegance
+- Avoid the flat appearance of pure top-down (90°) and the extreme foreshortening of side view
+
+Composition: Angled presentation highlighting diamond and band design
+- Central diamond (if present) should be prominent visual focal point
+- Band curvature and profile clearly visible through angled perspective
+- Show the relationship between central stone and band setting
+- Center the ring in frame with balanced composition
+- Minimum 15% frame padding around entire ring on all sides
+- DO NOT show completely flat top-down or completely vertical - maintain 35° angle
+
+Key Visual Elements for Diamond Ring:
+- Central diamond's top table and facets clearly visible
+- Diamond's cut, proportions, and brilliance should be apparent
+- Band design (curved, wave-shaped, or other styles) shown in profile
+- Setting mechanism (prongs, bezel, etc.) visible but not dominating
+- Metal's natural shine visible on both band and setting
+- The 35° angle creates depth while keeping diamond as primary focus
+
+III. Background (STRICT PURE WHITE)
+
+CRITICAL REQUIREMENT - Pure white background with NO exceptions:
+- Background MUST be pure white (#FFFFFF) with no gradients, no shadows, no colors
+- DO NOT add any environmental elements, props, or decorative backgrounds
+- DO NOT add surface reflections, table textures, or ground shadows
+- Remove ALL background elements from input image - result must float on pure white
+- Exception: very subtle shadow directly under ring is acceptable for depth
+
+IV. Lighting & Focus
+
+Lighting: Soft studio lighting optimized for diamond brilliance
+- Use softbox or diffused lighting from above to maximize diamond's fire and brilliance
+- Ensure lighting angle makes diamond's facets catch and reflect light beautifully
+- Eliminate harsh shadows while maintaining soft shadow under ring for depth
+- Ensure even brightness across ENTIRE ring - no dark areas or hot spots
+- Emphasize metal's natural shine (gold, platinum, rose gold, etc.)
+- For diamond: ensure excellent light return showing fire, scintillation, and brilliance
+- Multiple light sources may be used to make diamond sparkle from different angles
+
+Focus: Deep focus (large depth of field)
+- Foreground AND background must be equally sharp and clear
+- Entire ring must be in focus - no blur or bokeh effects
+- Maintain crisp edges on diamond facets and metal details
+- Diamond's table and crown should be razor sharp
+
+V. Technical Specifications
+
+Image Quality: Professional product photography standard
+- High resolution (minimum 2000px on the shortest side)
+- Sharp focus throughout entire ring including diamond facets
+- No noise, artifacts, or compression issues
+- Color accurate representation of metal tones and diamond color
+- Diamond's brilliance and fire should be clearly visible
+
+Style: Clean, minimalist luxury diamond jewelry photography
+- No artistic effects, filters, or styling
+- No additional elements or decorations
+- Professional studio lighting optimized for diamonds
+- Result should look like high-end diamond jewelry catalog photograph
+- Emphasis on diamond's beauty and ring's elegant design
+
+CRITICAL REMINDER: This is a 35° ANGLED TOP-DOWN VIEW optimized for DIAMOND RINGS
+- DO NOT use flat 90° top-down angle
+- DO NOT use side profile
+- MAINTAIN the 35° angle that shows both diamond table and band profile
+- The angle should create depth while highlighting diamond as primary focal point
+- Diamond's fire, brilliance, and cut quality must be clearly visible

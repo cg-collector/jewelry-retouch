@@ -38,23 +38,26 @@ class APIClient:
         
         # Prepare image
         start_encode = time.time()
-        img_b64 = self.image_to_base64(image)
-        img_bytes = self.image_to_bytes(image)
-        encode_duration = time.time() - start_encode
-        
-        # Log payload size
-        payload_size_mb = len(img_bytes) / 1024 / 1024
-        print(f"Image encoding took {encode_duration:.2f}s. Payload image size approx: {payload_size_mb:.2f} MB")
-        
-        if payload_size_mb > 5:
-            print("Warning: Image payload is large (>5MB), this might cause network timeouts.")
-        
+
         # Get dimensions
         width, height = image.size
-        
+
         endpoint = endpoint
         is_edits = "/edits" in endpoint
+
+        # Only encode what we need
         if is_edits:
+            # For edits endpoint, we only need bytes for multipart upload
+            img_bytes = self.image_to_bytes(image)
+            encode_duration = time.time() - start_encode
+
+            # Log payload size
+            payload_size_mb = len(img_bytes) / 1024 / 1024
+            print(f"Image encoding took {encode_duration:.2f}s. Payload image size approx: {payload_size_mb:.2f} MB")
+
+            if payload_size_mb > 5:
+                print("Warning: Image payload is large (>5MB), this might cause network timeouts.")
+
             data = {
                 "model": model,
                 "prompt": prompt,
@@ -69,6 +72,17 @@ class APIClient:
                 "image": ("image.png", img_bytes, "image/png")
             }
         else:
+            # For generations endpoint, we need base64
+            img_b64 = self.image_to_base64(image)
+            encode_duration = time.time() - start_encode
+
+            # Log payload size
+            payload_size_mb = len(img_b64) / 1024 / 1024
+            print(f"Image encoding took {encode_duration:.2f}s. Payload image size approx: {payload_size_mb:.2f} MB")
+
+            if payload_size_mb > 5:
+                print("Warning: Image payload is large (>5MB), this might cause network timeouts.")
+
             payload = {
                 "model": model,
                 "prompt": prompt,

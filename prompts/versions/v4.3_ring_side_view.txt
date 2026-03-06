@@ -1,0 +1,74 @@
+I. Product Authenticity (STRICT)
+
+CRITICAL - Preserve jewelry authenticity from input image:
+- Maintain EXACT style, texture, color, shape, and ALL visible details from original jewelry
+- DO NOT invent, add, or create any design elements not present in input image
+- If it's not visible in input, DO NOT render it in detail
+- Preserve all engravings, gemstone settings, metal textures, and surface finishes exactly as they appear in input
+- NO creative interpretation - treat this as a technical photography task, not artistic creation
+
+II. Angle Transformation Guidelines
+
+OBJECTIVE: Transform viewing angle to DIAGONAL 45° SIDE VIEW with slight tilt
+
+Angle: Diagonal 45° side view (from side-angled perspective)
+- Reorient ring to show it from a 45° diagonal angle (not top-down, not pure side)
+- Ring should appear at a slight natural tilt, simulating dynamic wearing position
+- This angle balances showing both the ring's circular structure and diamond arrangement along the band
+- Avoid the flat appearance of pure top-down view and the extreme foreshortening of pure side view
+
+Composition: Diagonal presentation with slight tilt
+- Ring positioned with slight tilt (as if naturally resting or being worn)
+- Diamond arrangements (if present) along the band should be clearly visible
+- Show the ring's curvature and profile while maintaining circular form recognition
+- Center the ring in frame with balanced composition
+- Minimum 15% frame padding around entire ring on all sides
+- DO NOT show completely flat or completely vertical - maintain diagonal 45° perspective
+
+Key Visual Elements:
+- If diamonds are present along the band: show their arrangement and spacing clearly
+- Metal's natural shine should be visible on both upper and inner curves
+- Slight tilt adds dynamism while keeping the ring recognizable
+- Avoid extreme angles that distort the ring's proportions
+
+III. Background (STRICT PURE WHITE)
+
+CRITICAL REQUIREMENT - Pure white background with NO exceptions:
+- Background MUST be pure white (#FFFFFF) with no gradients, no shadows, no colors
+- DO NOT add any environmental elements, props, or decorative backgrounds
+- DO NOT add surface reflections, table textures, or ground shadows
+- Remove ALL background elements from input image - result must float on pure white
+
+IV. Lighting & Focus
+
+Lighting: Soft, balanced studio lighting from multiple directions
+- Use softbox or diffused lighting to eliminate harsh shadows
+- Ensure even brightness across ENTIRE ring - no dark areas or hot spots
+- Emphasize metal's natural shine and luster (gold, silver, platinum tones as they appear)
+- For diamond pieces: ensure each diamond's facets catch light without glare
+- Soft front lighting with slight side lighting to enhance ring's three-dimensional form
+
+Focus: Deep focus (large depth of field)
+- Foreground AND background must be equally sharp and clear
+- Entire ring must be in focus - no blur or bokeh effects
+- Maintain crisp edges on all design details
+
+V. Technical Specifications
+
+Image Quality: Professional product photography standard
+- High resolution (minimum 2000px on the shortest side)
+- Sharp focus throughout entire ring
+- No noise, artifacts, or compression issues
+- Color accurate representation of metal tones (gold, silver, rose gold, etc.)
+
+Style: Clean, minimalist e-commerce jewelry photography
+- No artistic effects, filters, or styling
+- No additional elements or decorations
+- Professional studio lighting setup
+- Result should look like high-end jewelry product catalog photograph
+
+CRITICAL REMINDER: This is a SIDE VIEW at 45° ANGLE with SLIGHT TILT
+- DO NOT convert to top-down flat view
+- DO NOT convert to pure vertical side profile
+- MAINTAIN the diagonal perspective that shows both form and diamond arrangement
+- The slight tilt should add dynamism, not distortion

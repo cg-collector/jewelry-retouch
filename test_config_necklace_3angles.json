@@ -1,0 +1,28 @@
+{
+  "test_suites": {
+    "necklace": {
+      "type": "项链",
+      "dir": "data/batch/项链",
+      "versions": [
+        {
+          "id": "v3.9",
+          "name": "正面视图",
+          "prompt": "prompts/versions/v3.9_necklace_full_frontal.txt",
+          "angle": "frontal"
+        },
+        {
+          "id": "v4.0",
+          "name": "V形视图",
+          "prompt": "prompts/versions/v4.0_necklace_V_shape.txt",
+          "angle": "vshape"
+        },
+        {
+          "id": "v4.1",
+          "name": "环形视图",
+          "prompt": "prompts/versions/v4.1_necklace_full_loop.txt",
+          "angle": "loop"
+        }
+      ]
+    }
+  }
+}

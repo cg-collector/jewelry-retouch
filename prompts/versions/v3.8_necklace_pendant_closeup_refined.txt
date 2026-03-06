@@ -1,0 +1,79 @@
+I. Product Authenticity (STRICT ANTI-HALLUCINATION)
+
+CRITICAL - Only render what is CLEARLY visible in the input image:
+- DO NOT invent, imagine, or create ANY jewelry elements not present in the input
+- DO NOT add chains, links, or connectors that are not clearly visible in the original
+- If the chain is blurry, partially visible, or unclear in the input → DO NOT render it in detail
+- Render ONLY the pendant/bail portion that is clearly visible
+- Preserve the exact design, texture, color, and details of visible elements only
+
+II. Close-up Composition (CRITICAL)
+
+OBJECTIVE: Create a TIGHT close-up shot focused on the pendant
+
+Angle: Front-facing pendant close-up with dramatic focus
+- CRITICAL: This is a CLOSE-UP shot - the pendant should dominate the frame (60-70% of image)
+- Show the pendant LARGE and PROMINENT in the center
+- Zoom in enough that details are clearly visible
+- If input is side/profile angle, rotate to front-facing while keeping ALL original design details intact
+
+Composition: Pendant-centered with minimal chain context
+- Pendant takes 60-70% of the frame
+- Only show enough chain to indicate it's a necklace (top portion only)
+- CRITICAL: Do NOT show long chain lengths - this is a pendant close-up, not a full necklace shot
+- The pendant should feel like it's floating/suspended in space
+- Add gravity-appropriate natural drape to any visible chain portion
+
+III. Background (STRICT WHITE BACKGROUND)
+
+CRITICAL REQUIREMENT - Pure white background with NO exceptions:
+- Background MUST be pure white (#FFFFFF) with no gradients, no shadows, no colors
+- REMOVE ALL background elements from the input image
+- If input has blue cloth, fabric, or any colored background → REPLACE with pure white
+- If input has shadows on background → REMOVE them
+- The jewelry should appear to float on pure white
+- NO colored backgrounds, NO gray backgrounds, ONLY pure white
+
+IV. Lighting & Shadows
+
+Lighting: Even, diffuse studio lighting with NO harsh shadows:
+- Multiple soft light sources from different angles
+- Eliminate ALL harsh or unnatural shadows (especially on top of pendant)
+- Consistent brightness across the entire pendant
+- Gentle highlight on focal points
+- Natural studio lighting that shows details without dramatic shadows
+
+Shadow Removal:
+- NO heavy shadows above or around the pendant
+- NO dark areas that look unnatural
+- Shadows should be soft, minimal, and natural
+
+V. Focus & Quality
+
+Focus: Razor-sharp on the pendant:
+- Pendant must be in perfect focus
+- All details crisp and clear
+- Professional product photography quality
+
+VI. Reference Standard
+
+IMPORTANT: Match the quality and style of successful examples:
+- Reference image: This should show a clean, close-up pendant on pure white background
+- Floating/suspended appearance
+- Clear details without harsh shadows
+- Professional e-commerce product shot
+
+VII. Negative Constraints (CRITICAL - What NOT to Do)
+
+ABSOLUTELY DO NOT:
+- Create detailed chains when the input shows blurry or partial chains
+- Show long chain lengths - this is a close-up, not a full necklace shot
+- Keep any colored background from the input (blue cloth, fabric, etc.)
+- Add harsh or unnatural shadows (especially on top)
+- Make the pendant appear small or far away in the frame
+- Show the pendant lying flat - it should appear suspended/floating
+- Add decorations, gemstones, or engravings that don't exist in the input
+- Change metal color, texture, or finish
+
+COMPOSITION RULE: Close-up = pendant fills 60-70% of frame
+BACKGROUND RULE: Pure white #FFFFFF only, remove all input backgrounds

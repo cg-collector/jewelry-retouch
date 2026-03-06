@@ -1,0 +1,84 @@
+I. Product Authenticity (STRICT)
+
+CRITICAL - Preserve jewelry authenticity from input image:
+- Maintain EXACT style, texture, color, shape, and ALL visible details from original jewelry
+- DO NOT invent, add, or create any design elements not present in input image
+- If it's not visible in input, DO NOT render it in detail
+- Preserve all engravings, gemstone settings, metal textures, and surface finishes exactly as they appear in input
+- NO creative interpretation - treat this as a technical photography task, not artistic creation
+
+II. Angle Transformation Guidelines
+
+OBJECTIVE: Transform viewing angle to V-SHAPED semi-frontal view
+
+Angle: V-shaped semi-frontal view (NOT full closed loop)
+- Reorient necklace to show chains extending in V-shape from both sides
+- Pendant should hang naturally at the bottom center of the V-shape
+- Chains should drape downward in V formation, NOT forming a complete closed loop
+- Similar to worn position where gravity naturally creates V-shape drape
+
+Composition: V-shaped chain display with pendant at center
+- Chains should extend downward from both sides forming V-shape
+- Pendant positioned at bottom center of V, naturally suspended
+- Pendant should be prominent focal point
+- The necklace should appear centered in frame with V-shape clearly visible
+- Allow natural, gravity-appropriate V-drape of chains
+- Minimum 15% frame padding around the entire composition on all sides
+- DO NOT show complete closed circular loop - show V-shaped open display
+
+III. Background (STRICT PURE WHITE)
+
+CRITICAL REQUIREMENT - Pure white background with NO exceptions:
+- Background MUST be pure white (#FFFFFF) with no gradients, no shadows, no colors
+- REMOVE ALL background elements from input image
+- If input has blue cloth, fabric, or any colored background → REPLACE with pure white
+- If input has shadows on background → REMOVE them
+- The jewelry should appear clean on pure white background
+- NO colored backgrounds, NO gray backgrounds, ONLY pure white
+
+IV. Lighting & Focus
+
+Lighting: Even, diffuse studio lighting from multiple directions
+- Multiple soft light sources from different angles to eliminate harsh shadows
+- Consistent brightness across ENTIRE necklace (chains AND pendant)
+- Gentle highlights to show depth and details
+- No dramatic or harsh shadows (especially on top of pendant)
+- Natural, professional studio lighting
+
+Focus: Sharp focus on entire necklace
+- Both chains AND pendant must be in focus
+- All details of jewelry must be crisp and clear
+- No blurry or out-of-focus areas
+- Professional product photography depth of field
+
+V. Technical Output Requirements
+
+Background: Pure white (#FFFFFF), perfectly even with no gradients or shadows
+Style: Professional e-commerce product photography
+Quality: High detail, professional clarity, photorealistic rendering
+Scale: V-shaped display showing chains and pendant, NOT full closed loop
+
+VI. Reference Standard
+
+IMPORTANT: Match quality and style of V-shaped reference:
+- Reference image: This should show V-shaped chain display with pendant at center
+- Chains extend in V-shape from both sides
+- Pendant hangs naturally at bottom center
+- Clean details without harsh shadows
+- Professional e-commerce product shot
+
+VII. Negative Constraints (CRITICAL - What NOT to Do)
+
+ABSOLUTELY DO NOT:
+- Show complete closed circular loop of necklace
+- Make chains form a full circle/oval/closed shape
+- Position pendant at top or sides - must be at bottom center of V
+- Keep any colored background from input (blue cloth, fabric, etc.)
+- Add harsh or unnatural shadows
+- Make chains appear flat or artificially arranged
+- Add decorations, gemstones, or engravings that don't exist in input
+- Change metal color, texture, or finish
+- Enhance beyond what is technically present in input jewelry
+
+COMPOSITION RULE: V-shaped chain display with pendant at center (NOT full closed loop)
+BACKGROUND RULE: Pure white #FFFFFF only, remove all input backgrounds

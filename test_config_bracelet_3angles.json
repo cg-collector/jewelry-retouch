@@ -1,0 +1,28 @@
+{
+  "test_suites": {
+    "bracelet": {
+      "type": "手链",
+      "dir": "data/batch/手链",
+      "versions": [
+        {
+          "id": "v3.3",
+          "name": "俯视平铺",
+          "prompt": "prompts/versions/v3.3_bracelet_topdown.txt",
+          "angle": "topdown"
+        },
+        {
+          "id": "v3.10",
+          "name": "侧视图",
+          "prompt": "prompts/versions/v3.10_bracelet_side_view.txt",
+          "angle": "side"
+        },
+        {
+          "id": "v3.11",
+          "name": "斜视图",
+          "prompt": "prompts/versions/v3.11_bracelet_angled_view.txt",
+          "angle": "angled"
+        }
+      ]
+    }
+  }
+}

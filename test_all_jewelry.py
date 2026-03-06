@@ -9,22 +9,28 @@ import datetime
 from pathlib import Path
 import json
 
-# 自动扫描所有珠宝目录（测试项链）
+# 自动扫描所有珠宝目录（测试项链v4.1 完整环形）
 JEWELRY_DIRS = {
     "necklace": "数据/项链",
 }
 
 TYPE_NAMES = {
     "necklace": "项链",
+    "ring": "戒指",
     "earring": "耳环",
     "bracelet": "手链",
     "bangle": "手环",
 }
 
+# 饰品类型到提示词的映射
+JEWELRY_PROMPTS = {
+    "necklace": "prompts/versions/v4.1_necklace_full_loop.txt",
+    "ring": "prompts/versions/v4.2_ring_flat.txt",
+}
+
 # 测试配置
 CONTROL_STRENGTHS = [1.0]
-PROMPT_FILE = "prompts/versions/v3.0_necklace_threequarter.txt"
-MODEL = "nano-banana-2-2k-vip"
+MODEL = "gemini-3-pro-image-preview-2k-vip"
 STEPS = 40
 TIMEOUT = 300
 
@@ -64,7 +70,7 @@ def get_timestamp():
     return datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
 
 
-def run_single_test(image, control_strength, output_path):
+def run_single_test(image, control_strength, output_path, prompt_file):
     """运行单个测试"""
     # 使用临时目录
     temp_dir = output_path + "_temp"
@@ -72,7 +78,7 @@ def run_single_test(image, control_strength, output_path):
     cmd = [
         "python", "tools/quick_prompt_test.py",
         "--image", image,
-        "--prompt_file", PROMPT_FILE,
+        "--prompt_file", prompt_file,
         "--single",
         "--model", MODEL,
         "--outdir", temp_dir,
@@ -94,9 +100,69 @@ def run_single_test(image, control_strength, output_path):
             shutil.rmtree(temp_dir)
             return True, None
         else:
-            return False, "输出文件未生成"
+            # 从stdout中提取API错误信息
+            error_msg = extract_api_error(result.stdout)
+            return False, error_msg
     except subprocess.CalledProcessError as e:
-        return False, str(e)
+        # 命令执行失败（非零退出码）
+        error_msg = f"命令失败(退出码{e.returncode}): {extract_api_error(e.stdout) if e.stdout else str(e)}"
+        return False, error_msg
+    except Exception as e:
+        # 其他异常
+        return False, f"异常: {str(e)}"
+
+
+def extract_api_error(output):
+    """从API输出中提取错误信息"""
+    if not output:
+        return "无错误信息"
+
+    # 查找常见错误模式
+    import re
+
+    # 503错误
+    if "503 Server Error" in output:
+        match = re.search(r'"message":"([^"]+)"', output)
+        if match:
+            return f"503错误: {match.group(1)}"
+        return "503错误: 服务不可用"
+
+    # 500错误
+    if "500 Server Error" in output:
+        match = re.search(r'"message":"([^"]+)"', output)
+        if match:
+            return f"500错误: {match.group(1)}"
+        return "500错误: 服务器内部错误"
+
+    # 400错误
+    if "400 Bad Request" in output:
+        match = re.search(r'"message":"([^"]+)"', output)
+        if match:
+            return f"400错误: {match.group(1)}"
+        return "400错误: 请求格式错误"
+
+    # Generation failed
+    if "Generation failed:" in output:
+        match = re.search(r"Generation failed: (.+)", output)
+        if match:
+            return match.group(1).strip()
+        return "生成失败"
+
+    # API Request failed
+    if "API Request failed:" in output:
+        match = re.search(r"API Request failed: (.+)", output)
+        if match:
+            return match.group(1).strip()
+        return "API请求失败"
+
+    # 返回最后几行作为fallback
+    lines = output.strip().split('\n')
+    if len(lines) > 3:
+        return " | ".join(lines[-3:])
+    elif lines:
+        return lines[-1]
+
+    return output[-200:] if len(output) > 200 else output
 
 
 def main():
@@ -109,16 +175,13 @@ def main():
     MAX_WORKERS = args.workers
 
     timestamp = get_timestamp()
-    base_output = f"outputs/test_all_jewelry_{timestamp}"
 
     print(f"\n{'='*70}")
     print(f"全量珠宝数据测试")
     print(f"{'='*70}")
     print(f"测试值: {CONTROL_STRENGTHS}")
-    print(f"提示词: {PROMPT_FILE}")
     print(f"模型: {MODEL}")
     print(f"并发数: {MAX_WORKERS}")
-    print(f"输出目录: {base_output}")
     print(f"{'='*70}\n")
 
     # 扫描图片
@@ -153,8 +216,32 @@ def main():
         jewelry_type = test_case["type"]
         images = test_case["images"]
 
-        # 为每个类型创建一个目录
-        type_output_dir = os.path.join(base_output, jewelry_type)
+        # 获取该饰品类型对应的提示词
+        prompt_file = JEWELRY_PROMPTS.get(jewelry_type, list(JEWELRY_PROMPTS.values())[0])
+
+        # 从提示词文件名提取角度信息
+        prompt_filename = prompt_file.split("/")[-1]
+        if "V_shape" in prompt_filename:
+            item_angle = "V_shape"
+        elif "full_loop" in prompt_filename:
+            item_angle = "full_loop"
+        elif "flat" in prompt_filename:
+            item_angle = "flat"
+        elif "pendant_closeup" in prompt_filename:
+            item_angle = "pendant_closeup"
+        elif "threequarter" in prompt_filename:
+            item_angle = "threequarter"
+        elif "frontal" in prompt_filename:
+            item_angle = "frontal"
+        elif "topdown" in prompt_filename:
+            item_angle = "topdown"
+        elif "profile" in prompt_filename:
+            item_angle = "profile"
+        else:
+            item_angle = "universal"
+
+        # 为每个类型创建独立的输出目录：饰品名_角度_时间戳
+        type_output_dir = f"outputs/{jewelry_type}_{item_angle}_{timestamp}"
         os.makedirs(type_output_dir, exist_ok=True)
 
         print(f"\n{'='*70}")
@@ -166,21 +253,22 @@ def main():
             print(f"\n  [{img_idx}/{len(images)}] {image_name}")
 
             for strength in CONTROL_STRENGTHS:
-                # 生成文件名：img{idx}_strength{x.x}.png
-                strength_str = str(strength).replace('.', '_')
-                output_filename = f"img{img_idx:02d}_strength_{strength_str}.png"
+                # 生成文件名：01.png, 02.png, ...（与 quick_final_test 保持一致）
+                output_filename = f"{img_idx:02d}.png"
                 output_path = os.path.join(type_output_dir, output_filename)
 
                 print(f"    strength={strength} ... ", end="", flush=True)
 
-                success, error = run_single_test(image, strength, output_path)
+                success, error = run_single_test(image, strength, output_path, prompt_file)
 
                 results.append({
                     "type": type_name,
                     "jewelry_type": jewelry_type,
                     "image": image_name,
+                    "input": image,  # 添加输入图像路径
                     "image_index": img_idx,
                     "strength": strength,
+                    "model": MODEL,  # 添加使用的模型
                     "status": "success" if success else "failed",
                     "error": error,
                     "output": output_path
@@ -193,10 +281,19 @@ def main():
                 else:
                     print(f"✗ ({completed}/{total_tests})")
 
-    # 保存结果到JSON
-    result_file = os.path.join(base_output, "test_results.json")
-    with open(result_file, 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
+    # 保存结果到JSON（每个饰品类型独立保存）
+    result_files = []
+    for test_case in test_cases:
+        jewelry_type = test_case["type"]
+        type_results = [r for r in results if r["jewelry_type"] == jewelry_type]
+        if type_results:
+            # 从该类型的第一个结果中获取输出路径，提取角度
+            first_result = type_results[0]
+            output_dir = os.path.dirname(first_result["output"])
+            result_file = os.path.join(output_dir, "results.json")
+            result_files.append(result_file)
+            with open(result_file, 'w', encoding='utf-8') as f:
+                json.dump(type_results, f, ensure_ascii=False, indent=2)
 
     # 打印统计摘要
     print(f"\n{'='*70}")
@@ -205,7 +302,8 @@ def main():
 
     for test_case in test_cases:
         type_name = test_case["type_name"]
-        type_results = [r for r in results if r["type"] == type_name]
+        jewelry_type = test_case["type"]
+        type_results = [r for r in results if r["jewelry_type"] == jewelry_type]
         success_count = sum(1 for r in type_results if r["status"] == "success")
 
         print(f"\n{type_name}:")
@@ -221,36 +319,23 @@ def main():
     overall_success = sum(1 for r in results if r["status"] == "success")
     print(f"\n{'='*70}")
     print(f"总计: {overall_success}/{len(results)} 成功 ({overall_success/len(results)*100:.1f}%)")
-    print(f"结果目录: {base_output}")
-    print(f"结果文件: {result_file}")
     print(f"{'='*70}")
 
-    # 生成查看指南
-    guide_file = os.path.join(base_output, "view_guide.txt")
-    with open(guide_file, 'w', encoding='utf-8') as f:
-        f.write("查看结果指南\n")
-        f.write("=" * 60 + "\n\n")
+    # 快速查看命令
+    print(f"\n快速查看命令:")
+    for test_case in test_cases:
+        type_name = test_case["type_name"]
+        jewelry_type = test_case["type"]
+        type_results = [r for r in results if r["jewelry_type"] == jewelry_type]
+        if type_results:
+            type_dir = os.path.dirname(type_results[0]["output"])
+            print(f"\n# {type_name}:")
+            print(f"open \"{type_dir}\"")
 
-        for test_case in test_cases:
-            type_name = test_case["type_name"]
-            jewelry_type = test_case["type"]
-            type_dir = os.path.join(base_output, jewelry_type)
-            f.write(f"\n# {type_name}\n")
-            f.write(f"cd \"{type_dir}\"\n\n")
-
-            for img_idx, image in enumerate(test_case["images"], 1):
-                image_name = Path(image).name
-                f.write(f"## 图片 {img_idx}: {image_name}\n")
-
-                for strength in CONTROL_STRENGTHS:
-                    strength_str = str(strength).replace('.', '_')
-                    output_filename = f"img{img_idx:02d}_strength_{strength_str}.png"
-                    f.write(f'open "{output_filename}"  # strength={strength}\n')
-
-                f.write("\n")
-
-    print(f"查看指南: {guide_file}")
-    print(f"运行以下命令查看: cat {guide_file}")
+    print(f"\n\n# 单独查看某张图片:")
+    for r in results:
+        if r["status"] == "success":
+            print(f'open "{r["output"]}"  # {r["type"]} - {r["image"]}')
 
     return 0 if overall_success == len(results) else 1
 

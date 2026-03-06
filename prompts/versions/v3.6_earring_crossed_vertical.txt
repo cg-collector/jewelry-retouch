@@ -1,0 +1,82 @@
+I. Complete Product Display (E-commerce Standard)
+
+CRITICAL REQUIREMENT - Display the ENTIRE jewelry piece with NO cropping:
+- All edges, tips, ends, and details must be fully visible
+- Minimum 10% frame padding around the object on all sides
+- No alterations to jewelry's style, texture, color, shape, or details
+
+II. Angle & Composition
+
+Angle: Front-facing view with slight downward tilt
+- Show earrings in natural vertical hanging orientation
+- Display both earrings clearly if pair is shown
+- View is primarily frontal with slight elevated angle (10-20° above horizontal)
+- This angle shows earring's full form and design details clearly
+
+Composition: Balanced presentation with crossed or overlapping arrangement
+- Two earrings may be arranged with slight overlap (one slightly in front, one slightly behind)
+- This crossed/overlapping arrangement creates visual depth and shows earring's three-dimensional form
+- Center the earring pair in frame
+- Show complete earring length from post/hook to bottom
+- Maintain proportional spacing around the jewelry
+- DO NOT zoom in or crop tighter than the original image
+- Both earrings should be clearly visible despite slight overlap
+
+Key Visual Elements:
+- Earring's circular or loop form should be clearly visible
+- Connection points, posts, or hooks should be discernible
+- Metal texture and surface details apparent on both earrings
+- The overlap should be natural, not obscuring important design elements
+- Both earrings contribute to balanced composition
+
+III. Lighting & Focus
+
+Lighting: Even, balanced studio lighting from multiple directions
+- Eliminate harsh shadows and dark areas
+- Ensure consistent brightness across the ENTIRE piece
+- Emphasize metal's natural shine and luster
+- Soft front lighting with slight side lighting to enhance three-dimensional form
+- If gemstones present: ensure they catch light without harsh glare
+
+Focus: Deep focus (large depth of field)
+- Foreground AND background must be equally sharp and clear
+- ENTIRE earring pair must be in focus - no blur or bokeh
+- Maintain crisp edges on all design details including connection points
+- Both earrings (foreground and background) must be sharp
+
+IV. Background (STRICT PURE WHITE)
+
+CRITICAL REQUIREMENT - Pure white background with NO exceptions:
+- Background MUST be pure white (#FFFFFF) with no gradients, no shadows, no colors
+- DO NOT add any environmental elements, props, or decorative backgrounds
+- DO NOT add surface reflections, table textures, or ground shadows
+- Remove ALL background elements from input image - result must float on pure white
+- Exception: very subtle shadows for depth are acceptable
+
+V. Technical Specifications
+
+Image Quality: Professional product photography standard
+- High resolution (minimum 2000px on the shortest side)
+- Sharp focus throughout entire earring pair
+- No noise, artifacts, or compression issues
+- Color accurate representation of metal tones (gold, silver, rose gold, etc.)
+- If gemstones present: accurate color representation
+
+Style: Clean, minimalist e-commerce jewelry photography
+- No artistic effects, filters, or styling
+- No additional elements or decorations
+- Professional studio lighting setup
+- Result should look like high-end jewelry product catalog photograph
+
+Special Notes for Crossed/Overlapping Arrangement:
+- The overlap should be natural and aesthetically pleasing
+- Both earrings should remain clearly identifiable
+- Design details on both earrings should be visible
+- The arrangement should enhance, not obscure, the earring's form
+- This presentation shows the earrings as they might appear when worn or displayed together
+
+CRITICAL REMINDER: This is FRONT-FACING with SLIGHT DOWNWARD TILT
+- DO NOT convert to pure top-down or pure side view
+- MAINTAIN the natural vertical hanging orientation
+- Both earrings must be clearly visible despite overlap
+- The crossed arrangement adds depth while keeping design clear

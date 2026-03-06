@@ -1,0 +1,26 @@
+I. Product Authenticity (CRITICAL - NO HALLUCINATION)
+
+Only render what is CLEARLY visible in the input image:
+- DO NOT add jewelry elements, patterns, or gemstones not present in input
+- Preserve exact design, texture, color of visible elements only
+
+II. Angle & Composition
+
+Frontal view with both earrings displayed:
+- Two earrings arranged horizontally, left and right symmetric
+- Earrings hang vertically with top facing UP, chains hanging DOWN
+- Maintain natural vertical hanging posture as if worn
+- Balanced spacing between earrings, no overlap
+
+III. Background
+
+Pure white (#FFFFFF) only:
+- Remove ALL input background elements
+- No colors, shadows, or textures from input
+
+IV. Lighting & Focus
+
+Even, diffuse studio lighting:
+- Eliminate harsh shadows
+- Razor-sharp focus on all details
+- Professional e-commerce quality
